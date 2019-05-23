@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.banner {
+  background-image: url(../../images/bananas_picture.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  color: black;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #665c84;
+  padding: 8px 8px;
+  border-radius: 8px;
+  color: white;
+  margin: 8px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.card p {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  width: 100px;
+  height: 250px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #665c84;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #665c84;
+}
+
+.img-circle {
+  display: block;
+  padding: 0px 60px;
+  width: 120px;
+  border-radius: 150%;
+  margin: 0 auto;
+}
+
